@@ -1,24 +1,39 @@
-.header {
-  background-color: rgb(19, 25, 33);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+/* Styles each game container */
+.game {
+  display: block;
+  width: 200px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles the game title */
+.game h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Styles the Play Now button */
+.game a {
+  display: block;
+  padding: 10px;
+  background-color: #4caf50;
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  text-decoration: none;
+}
 
+/* Centers the game containers horizontally */
+.games-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
-}
-
-.site-logo {
-  width: 100px;
-  margin-top: 50px;
-}
-.profile {
-  width: 50px;
+  justify-content: center;
+  margin: 0 auto; /* Centers the entire container  horizontally */
 }

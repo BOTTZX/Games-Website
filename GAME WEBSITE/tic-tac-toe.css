@@ -139,3 +139,7 @@ table {
 .win-color {
   background-color: rgb(240, 240, 240);
 }
+
+.home {
+  scale: 0.152;
+}
