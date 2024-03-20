@@ -444,3 +444,6 @@ document.querySelector("#p1Colour").addEventListener("change", function (e) {
 document.querySelector("#p2Colour").addEventListener("change", function (e) {
   changeSquareColour(e, 2);
 });
+
+var audio = document.getElementById("audio");
+audio.volume = 0.2;

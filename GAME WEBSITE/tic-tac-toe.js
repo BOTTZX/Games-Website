@@ -673,3 +673,5 @@ function endGame(who) {
   }
   setTimeout(restartGame, 800);
 }
+var audio = document.getElementById("audio");
+audio.volume = 0.2;

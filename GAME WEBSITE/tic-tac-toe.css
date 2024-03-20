@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(32, 32, 32);
-  background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+  background-color: #222;
+
   color: rgb(230, 230, 230);
   text-align: center;
   font-family: "Indie Flower", "Comic Sans", cursive;
@@ -22,7 +22,7 @@ h2 {
 h3 {
   font-size: 1.1em;
   text-decoration: underline;
-  text-decoration-style: dashed;
+  /* text-decoration-style: dashed; */
   padding: 0;
   margin: 10px 0 2px 0;
 }
@@ -138,8 +138,4 @@ table {
 
 .win-color {
   background-color: rgb(240, 240, 240);
-}
-
-.home {
-  scale: 0.152;
 }
